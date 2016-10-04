@@ -1,0 +1,155 @@
+@media (max-width: 1198px) {
+  	.news_block{
+ 		width: 160px;
+  	}
+}	
+
+@media (min-width: 992px){
+	.container-fluid>.navbar-collapse{
+		margin-left: -374px;
+	}
+}
+@media (max-width: 991px){
+	.carousel-indicators{
+  		bottom: 30px;
+	}
+	.main_header{
+  		font-family: 'Open Sans', sans-serif;
+  		font-weight: 600;
+  		font-size: 14px;
+	}
+	.header_text{
+  		font-size: 35px;
+   		line-height: 22px;
+	}
+	.header_text_light{
+  		font-size: 22px
+	}
+	.container-fluid>.navbar-collapse {
+    	margin-left: -299px;
+	}
+  	.news_block{
+ 		width: 190px;
+  		height: 350px;
+	}
+	.news{
+  		margin-left: 15px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.navbar-default{
+		background-color: #5D5D5D;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		background-color: #808080;
+		border-bottom: none;
+	}
+	.navbar-default .navbar-nav>li>a{
+  		color: white;
+	}
+	.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  		color: white;
+	}
+	.header_text{
+  		font-size: 24px;
+   		line-height: 19px;
+	}
+	.header_text_light{
+  		font-size: 17px
+	}
+	.carousel-caption{
+  		padding-bottom: 20px;
+	}
+	.header_menu_info_text{
+ 		font-size: 11px;
+	}
+	.carousel-indicators{
+ 		bottom: 10px;
+	}
+	.news_block{
+  	text-align: center;
+  	width: 150px;
+  	height: 350px;
+	}
+	.container-fluid>.navbar-collapse {
+    	margin-left: inherit;
+	}
+	.container-fluid{
+		padding-left: 0px;
+	}
+	.container{
+		padding-left: 0px;
+	}
+	.news{
+		/*margin-left: 0px;*/
+		min-width: 150px;
+		margin: 0px auto;
+	}
+	#reviews-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #reviews-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #reviews-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+    blockquote{
+    	font-size: 14.5px;
+    }
+    .info_block{
+ 		padding-left: 8px;
+	}
+	.block_description{
+		font-size: 14px;
+	}
+	.block_name{
+		font-size: 18px;
+	}
+	.copyright{
+  		left: 8px;
+	}
+}
+
+@media (min-width: 768px){
+/*	.header_carousel{
+		position: absolute;
+		top: 0px;
+	}*/
+	.main_header{
+		position: absolute;
+    	z-index: 999;
+    	top: 12px;
+    	left: 50%;
+	}
+	.navbar-nav{
+		float: right;
+	}
+	.navbar-nav>li>a{
+		padding-bottom: 8px;
+	}
+	#reviews-carousel
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+	
+}
+
+@media (max-width: 467px) {
+	.option{
+		display: none;
+	}
+}
+
+
+
+
